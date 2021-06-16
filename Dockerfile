@@ -1,4 +1,4 @@
-M quay.io/upslopeio/node-alpine as build
+FROM quay.io/upslopeio/node-alpine as build
 WORKDIR /app
 COPY . .
 RUN npm install
